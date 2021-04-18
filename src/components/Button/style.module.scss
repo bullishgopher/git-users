@@ -1,0 +1,20 @@
+.button {
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #D5333E;
+  color: white;
+  box-shadow: 0 4px 10px #eeeeee30, 0 1px 1px #eeeeee3b;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f14854;
+    transform: 1s ease;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
